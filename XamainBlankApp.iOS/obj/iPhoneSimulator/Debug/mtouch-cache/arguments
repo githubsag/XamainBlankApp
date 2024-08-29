@@ -1,20 +1,20 @@
-# Version: 14.20.0.25 (d16-10: 3b53e529b)
-/Library/Frameworks/Xamarin.iOS.framework/Versions/14.20.0.25/lib/mtouch/mtouch.exe \
+# Version: 15.2.0.17 (xcode13.1: 738fde344)
+/Library/Frameworks/Xamarin.iOS.framework/Versions/15.2.0.17/lib/mtouch/mtouch.exe \
 	--debug \
 	--sgen-conc \
 	'/target-framework:Xamarin.iOS,Version=v1.0' \
 	--http-message-handler=NSUrlSessionHandler \
-	--cache=/Users/sohrabazamighadim/Projects/XamainBlankApp/XamainBlankApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
-	--root-assembly=/Users/sohrabazamighadim/Projects/XamainBlankApp/XamainBlankApp.iOS/bin/iPhoneSimulator/Debug/XamainBlankApp.iOS.exe \
+	--cache=/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--root-assembly=/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/bin/iPhoneSimulator/Debug/XamainBlankApp.iOS.exe \
 	--sdkroot=/Applications/Xcode.app/Contents/Developer \
 	--targetver=8.0 \
-	--sim=/Users/sohrabazamighadim/Projects/XamainBlankApp/XamainBlankApp.iOS/bin/iPhoneSimulator/Debug/XamainBlankApp.iOS.app \
+	--sim=/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/bin/iPhoneSimulator/Debug/XamainBlankApp.iOS.app \
 	--executable=XamainBlankApp.iOS \
 	--nolink \
-	--sdk=15.0 \
+	--sdk=15.2 \
 	--aot-options=-O=-float32 \
 	--abi=x86_64 \
-	--symbollist=/Users/sohrabazamighadim/Projects/XamainBlankApp/XamainBlankApp.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--symbollist=/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
@@ -206,4 +206,4 @@
 	--reference=/Users/sohrabazamighadim/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/sohrabazamighadim/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/sohrabazamighadim/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
-	@/Users/sohrabazamighadim/Projects/XamainBlankApp/XamainBlankApp.iOS/obj/iPhoneSimulator/Debug/response-file.rsp \
+	@/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/obj/iPhoneSimulator/Debug/response-file.rsp \

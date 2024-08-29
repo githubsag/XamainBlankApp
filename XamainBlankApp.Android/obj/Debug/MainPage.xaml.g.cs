@@ -13,7 +13,8 @@
 namespace XamainBlankApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/sohrabazamighadim/Projects/XamainBlankApp/XamainBlankApp/MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp/Mai" +
+        "nPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
