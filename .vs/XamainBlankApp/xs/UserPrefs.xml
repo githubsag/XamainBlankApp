@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{FDE99ABB-B878-4055-AA16-EC90D89907B8}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamainBlankApp FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamainBlankApp" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="XamainBlankApp.Android" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamainBlankApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.156DACF8-E739-411A-83B5-98D4000F2C32" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamainBlankApp.Android PreferredExecutionTarget="Android.Nexus_5X_API_27" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

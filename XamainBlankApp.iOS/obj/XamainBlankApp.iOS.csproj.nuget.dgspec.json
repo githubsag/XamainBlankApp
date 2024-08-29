@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/XamainBlankApp.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/XamainBlankApp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/XamainBlankApp.iOS.csproj",
+        "projectName": "XamainBlankApp.iOS",
+        "projectPath": "/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/XamainBlankApp.iOS.csproj",
+        "packagesPath": "/Users/sohrabazamighadim/.nuget/packages/",
+        "outputPath": "/Users/sohrabazamighadim/Projects/Xamarin.Forms/XamainBlankApp/XamainBlankApp.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/sohrabazamighadim/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
