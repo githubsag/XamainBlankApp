@@ -38,7 +38,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: iOS
       run: |
-        cd XamainBlankApp
         /Library/Frameworks/Mono.framework/Versions/Current/Commands/nuget restore
         /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild XamainBlankApp.iOS/XamainBlankApp.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
 
