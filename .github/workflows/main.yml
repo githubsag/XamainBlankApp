@@ -28,9 +28,9 @@ jobs:
     - name: Android
       run: |
         cd XamainBlankApp
-        /Library/Framework/Monoframework/Versions/Current/Commands/nuget restore
+        /Library/Frameworks/Mono.framework/Versions/Current/Commands/nuget restore
         cd XamainBlankApp.Android
-        /Library/Framework/Monoframework/Versions/Current/Commands/msbuild XamainBlankApp.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild XamainBlankApp.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
 
   iOS:
     runs-on: macos-latest
@@ -39,7 +39,7 @@ jobs:
     - name: iOS
       run: |
         cd XamainBlankApp
-        /Library/Framework/Monoframework/Versions/Current/Commands/nuget restore
-        /Library/Framework/Monoframework/Versions/Current/Commands/msbuild XamainBlankApp.iOS/XamainBlankApp.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
+        /Library/Frameworks/Mono.framework/Versions/Current/Commands/nuget restore
+        /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild XamainBlankApp.iOS/XamainBlankApp.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
 
         
